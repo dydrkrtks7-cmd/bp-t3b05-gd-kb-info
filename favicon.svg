@@ -1,7 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
-  <metadata>BPaaS site identity c9671d53db81f168</metadata>
-  <rect width="64" height="64" rx="13" fill="hsl(79 61% 27%)"/>
-  <path d="M33 0h31v64H19Z" fill="hsl(156 60% 55%)" opacity="0.82"/>
-  <g transform="rotate(159 32 32)" opacity="0.42"><path d="M14 20h36L32 50Z" fill="none" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/></g>
-  <text x="32" y="39" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="0">GR</text>
+  <title>공덕 노래방 정보</title>
+  <rect width="64" height="64" rx="10" fill="hsl(79 57% 39%)"/>
+  <g transform="rotate(270 32 32)"><circle cx="25" cy="32" r="13" fill="none" stroke="hsl(79 24% 96%)" stroke-width="7"/><circle cx="39" cy="32" r="13" fill="none" stroke="hsl(163 68% 59%)" stroke-width="7"/></g>
 </svg>
