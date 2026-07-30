@@ -1,10 +1,5 @@
 User-agent: *
 Allow: /
 
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-Sitemap: https://gongdeok-room-info.link-hub.org/sitemap.xml
+Sitemap: https://yeongdeungpo-karaoke-note.shirtslab-mapo.xyz/sitemap.xml
+Sitemap: https://yeongdeungpo-karaoke-note.shirtslab-mapo.xyz/sitemap-pages.xml
