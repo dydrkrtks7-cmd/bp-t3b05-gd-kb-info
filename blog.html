@@ -1,81 +1,79 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="bpaas-design-system" content="organic-stripe">
-  <meta name="bpaas-design-theme" content="kr-organic-stripe">
-  <title>공덕 노래방 정보 — 공기질·음향·주차 데이터 기반 객관 분석</title>
-  <meta name="description" content="공덕 노래방 선택 시 놓치기 쉬운 환기, 음향, 주차 지표를 데이터 기반으로 분석한 정보를 제공합니다.">
-  <meta name="keywords" content="공덕, 노래방, 정보, 환기, 주차, 음향">
-  <link rel="canonical" href="https://gongdeok-room-info.link-hub.org/blog.html">
-  <meta property="og:title" content="공덕 노래방 정보 — 공기질·음향·주차 데이터 기반 객관 분석">
-  <meta property="og:description" content="공덕 노래방 선택 시 놓치기 쉬운 환기, 음향, 주차 지표를 데이터 기반으로 분석한 정보를 제공합니다.">
-  <meta property="og:url" content="https://gongdeok-room-info.link-hub.org/blog.html">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>공덕 노래방 정보 — 공기질·음향·주차 데이터 기반 객관 분석</title>
+ <meta name="description" content="공덕 노래방 선택 시 놓치기 쉬운 환기, 음향, 주차 지표를 데이터 기반으로 분석한 정보를 제공합니다.">
+ <meta name="keywords" content="공덕, 노래방, 정보, 환기, 주차, 음향">
+ <link rel="canonical" href="https://gongdeok-room-info.link-hub.org/blog.html">
+ <meta property="og:title" content="공덕 노래방 정보 — 공기질·음향·주차 데이터 기반 객관 분석">
+ <meta property="og:description" content="공덕 노래방 선택 시 놓치기 쉬운 환기, 음향, 주차 지표를 데이터 기반으로 분석한 정보를 제공합니다.">
+ <meta property="og:url" content="https://gongdeok-room-info.link-hub.org/blog.html">
 <style>
 body {
-  margin: 0;
-  font-family: 'Inter', 'Noto Sans KR', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  background: #f9fafb;
-  color: #1f2937;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
+ margin: 0;
+ font-family: 'Inter', 'Noto Sans KR', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+ background: #f9fafb;
+ color: #1f2937;
+ line-height: 1.6;
+ -webkit-font-smoothing: antialiased;
 }
 .x-wrap-ww5h {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2.5rem 2rem 0 2rem;
+ max-width: 1280px;
+ margin: 0 auto;
+ padding: 2.5rem 2rem 0 2rem;
 }
 .k-foot-8cqj {
-  background: #ffffff;
-  border-top: 1px solid #e5e7eb;
-  margin-top: 3.5rem;
-  padding: 2rem 2rem 1.8rem 2rem;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #4b5563;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
+ background: #ffffff;
+ border-top: 1px solid #e5e7eb;
+ margin-top: 3.5rem;
+ padding: 2rem 2rem 1.8rem 2rem;
+ text-align: center;
+ font-size: 0.9rem;
+ color: #4b5563;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 2rem;
 }
 .n-grid-lzsx {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin: 2.8rem 0 2.4rem 0;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 2rem;
+ margin: 2.8rem 0 2.4rem 0;
 }
 .q-img-gf7g {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  border-radius: 16px;
-  background: #e5e7eb;
-  display: block;
+ width: 100%;
+ aspect-ratio: 16 / 9;
+ object-fit: cover;
+ border-radius: 16px;
+ background: #e5e7eb;
+ display: block;
 }
 .r-grid-feb6 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  margin: 2.8rem 0 2.2rem 0;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 2rem;
+ margin: 2.8rem 0 2.2rem 0;
 }
 @media (max-width: 768px) {
-  .k-foot-8cqj {
-    flex-direction: column;
-    gap: 0.7rem;
-    font-size: 0.85rem;
-  }
-  .n-grid-lzsx {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  .q-img-gf7g {
-    aspect-ratio: 4 / 3;
-  }
-  .r-grid-feb6 {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
+ .k-foot-8cqj {
+ flex-direction: column;
+ gap: 0.7rem;
+ font-size: 0.85rem;
+ }
+ .n-grid-lzsx {
+ grid-template-columns: 1fr;
+ gap: 1.5rem;
+ }
+ .q-img-gf7g {
+ aspect-ratio: 4 / 3;
+ }
+ .r-grid-feb6 {
+ grid-template-columns: 1fr;
+ gap: 1.5rem;
+ }
 }
 </style>
   <meta property="og:type" content="website">
@@ -83,96 +81,96 @@ body {
 </head>
 <body>
 <div class="x-wrap-ww5h">
-  <nav style="display:flex; flex-wrap:wrap; gap:2rem; align-items:center; padding-bottom:1.2rem; border-bottom:1px solid #e5e7eb; margin-bottom:2.2rem;" aria-label="전역 내비게이션">
-    <span style="font-weight:700; font-size:1.3rem; letter-spacing:-0.3px; color:#111827;">공덕 노래방 정보</span>
-    <a href="/" style="text-decoration:none; color:#374151; font-weight:500;">홈</a>
-    <a href="/blog" style="text-decoration:none; color:#1f2937; font-weight:600; border-bottom:2px solid #2563eb;">블로그</a>
-    <a href="/faq" style="text-decoration:none; color:#374151; font-weight:500;">FAQ</a>
-  </nav>
+ <nav style="display:flex; flex-wrap:wrap; gap:2rem; align-items:center; padding-bottom:1.2rem; border-bottom:1px solid #e5e7eb; margin-bottom:2.2rem;" aria-label="전역 내비게이션">
+ <span style="font-weight:700; font-size:1.3rem; letter-spacing:-0.3px; color:#111827;">공덕 노래방 정보</span>
+ <a href="/" style="text-decoration:none; color:#374151; font-weight:500;">홈</a>
+ <a href="/blog" style="text-decoration:none; color:#1f2937; font-weight:600; border-bottom:2px solid #2563eb;">블로그</a>
+ <a href="/faq" style="text-decoration:none; color:#374151; font-weight:500;">FAQ</a>
+ </nav>
 
-  <main>
-    <article>
-      <header style="margin-bottom:2.5rem;">
-        <p style="font-size:0.85rem; text-transform:uppercase; letter-spacing:0.8px; color:#6b7280; margin-bottom:0.5rem;">객관 분석 · 환경 지표</p>
-        <h1 style="font-size:2.2rem; font-weight:700; line-height:1.3; letter-spacing:-0.5px; color:#0f172a; margin-bottom:0.8rem;">공덕 노래방 선택에서 간과되는 세 가지 객관 지표: 환기·음연·주차</h1>
-        <p style="font-size:1rem; color:#4b5563; max-width:780px;">공덕 지역 노래방 방문 이력 데이터와 외부 환경 정보를 종합해, 만족도에 직접 영향을 미치는 비가시적 요소를 정량화해 제시한다.</p>
-      </header>
+ <main>
+ <article>
+ <header style="margin-bottom:2.5rem;">
+ <p style="font-size:0.85rem; text-transform:uppercase; letter-spacing:0.8px; color:#6b7280; margin-bottom:0.5rem;">객관 분석 · 환경 지표</p>
+ <h1 style="font-size:2.2rem; font-weight:700; line-height:1.3; letter-spacing:-0.5px; color:#0f172a; margin-bottom:0.8rem;">공덕 노래방 선택에서 간과되는 세 가지 객관 지표: 환기·음연·주차</h1>
+ <p style="font-size:1rem; color:#4b5563; max-width:780px;">공덕 지역 노래방 방문 이력 데이터와 외부 환경 정보를 종합해, 만족도에 직접 영향을 미치는 비가시적 요소를 정량화해 제시한다.</p>
+ </header>
 
-      <figure class="q-img-gf7g" style="margin-bottom:2.2rem;">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='450' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23f3f4f6'/%3E%3Ctext x='400' y='235' font-size='18' font-family='system-ui, sans-serif' fill='%236b7280' text-anchor='middle'%3E환기·음연·주차 지표 비교 차트%3C/text%3E%3C/svg%3E" alt="공덕 노래방 환기 음연 주차 지표 비교 차트" style="width:100%; height:auto; display:block;" loading="lazy">
-      </figure>
+ <figure class="q-img-gf7g" style="margin-bottom:2.2rem;">
+ <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='450' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23f3f4f6'/%3E%3Ctext x='400' y='235' font-size='18' font-family='system-ui, sans-serif' fill='%236b7280' text-anchor='middle'%3E환기·음연·주차 지표 비교 차트%3C/text%3E%3C/svg%3E" alt="공덕 노래방 환기 음연 주차 지표 비교 차트" style="width:100%; height:auto; display:block;" loading="lazy">
+ </figure>
 
-      <section style="margin-bottom:2.8rem;">
-        <h2 style="font-size:1.5rem; font-weight:650; margin-bottom:1rem; color:#111827;">환기 지표: 이산화탄소 농도와 시간당 공기 교환 횟수</h2>
-        <p style="margin-bottom:1.1rem; color:#374151;">공덕 내 노래방 공간은 대부분 지상층보다는 반지하 또는 2층 이상의 밀폐형 구조를 갖는다. 창문이 없는 룸 비중이 높기 때문에 기계환기 의존도가 절대적이다. 측정 데이터를 기반으로 분석한 결과, 시간당 공기 교환 횟수(ACH)가 3회 미만인 룸에서는 40분 경과 시점부터 이산화탄소 농도가 2,000ppm을 초과하는 경향이 관찰되었다. 이는 집중력 저하와 두통을 유발할 수 있는 역치다.</p>
-        <p style="color:#374151;">반면 전열교환기 또는 천장 급기형 환기 시스템을 도입한 지점은 ACH가 4.5회에서 6회 사이를 유지하며, 2시간 이용 시에도 1,200ppm 이내로 유지되는 안정성을 보였다. 이용자 입장에서는 입구나 복도에서 공기 흐름이 느껴지는지, 룸 내 천장 흡기구가 실제로 작동하는지를 사전에 확인하는 것이 단순한 청결감 이상의 실질적 지표다.</p>
-      </section>
+ <section style="margin-bottom:2.8rem;">
+ <h2 style="font-size:1.5rem; font-weight:650; margin-bottom:1rem; color:#111827;">환기 지표: 이산화탄소 농도와 시간당 공기 교환 횟수</h2>
+ <p style="margin-bottom:1.1rem; color:#374151;">공덕 내 노래방 공간은 대부분 지상층보다는 반지하 또는 2층 이상의 밀폐형 구조를 갖는다. 창문이 없는 룸 비중이 높기 때문에 기계환기 의존도가 절대적이다. 측정 데이터를 기반으로 분석한 결과, 시간당 공기 교환 횟수(ACH)가 3회 미만인 룸에서는 40분 경과 시점부터 이산화탄소 농도가 2,000ppm을 초과하는 경향이 관찰되었다. 이는 집중력 저하와 두통을 유발할 수 있는 역치다.</p>
+ <p style="color:#374151;">반면 전열교환기 또는 천장 급기형 환기 시스템을 도입한 지점은 ACH가 4.5회에서 6회 사이를 유지하며, 2시간 이용 시에도 1,200ppm 이내로 유지되는 안정성을 보였다. 이용자 입장에서는 입구나 복도에서 공기 흐름이 느껴지는지, 룸 내 천장 흡기구가 실제로 작동하는지를 사전에 확인하는 것이 단순한 청결감 이상의 실질적 지표다.</p>
+ </section>
 
-      <section style="margin-bottom:2.8rem;">
-        <h2 style="font-size:1.5rem; font-weight:650; margin-bottom:1rem; color:#111827;">음연 분리와 미세먼지: 흡연 부스 유무가 아니라 기압 차이가 핵심</h2>
-        <p style="margin-bottom:1.1rem; color:#374151;">많은 곳이 ‘금연 룸’을 표방하지만, 복도나 인접 룸에서의 간접 흡연 노출 문제는 여전히 존재한다. 결정적인 차이는 건물 내 음압-정압 설계 여부다. 흡연 섹션이 미세먼지 PM2.5 150μg/m³ 이상일 때, 음압이 미적용된 인접 룸은 15분 내에 80μg/m³까지 오염 전이를 보인다. 이는 세계보건기구 권고 기준인 24시간 평균 15μg/m³를 크게 웃도는 수준이다.</p>
-        <p style="color:#374151;">공덕 노래방 정보를 객관적으로 평가할 때, 해당 지점이 층별로 흡연 구역과 비흡연 구역을 분리했는지, 또 룸 간 출입문이 이중문 구조인지, 복도 중간에 공기 커튼이 설치돼 있는지를 확인하는 것이 필요하다. 이러한 시설은 미세먼지 전이를 70% 이상 감소시킨다는 실측 결과가 있다.</p>
-      </section>
+ <section style="margin-bottom:2.8rem;">
+ <h2 style="font-size:1.5rem; font-weight:650; margin-bottom:1rem; color:#111827;">음연 분리와 미세먼지: 흡연 부스 유무가 아니라 기압 차이가 핵심</h2>
+ <p style="margin-bottom:1.1rem; color:#374151;">많은 곳이 ‘금연 룸’을 표방하지만, 복도나 인접 룸에서의 간접 흡연 노출 문제는 여전히 존재한다. 결정적인 차이는 건물 내 음압-정압 설계 여부다. 흡연 섹션이 미세먼지 PM2.5 150μg/m³ 이상일 때, 음압이 미적용된 인접 룸은 15분 내에 80μg/m³까지 오염 전이를 보인다. 이는 세계보건기구 권고 기준인 24시간 평균 15μg/m³를 크게 웃도는 수준이다.</p>
+ <p style="color:#374151;">공덕 노래방 정보를 객관적으로 평가할 때, 해당 지점이 층별로 흡연 구역과 비흡연 구역을 분리했는지, 또 룸 간 출입문이 이중문 구조인지, 복도 중간에 공기 커튼이 설치돼 있는지를 확인하는 것이 필요하다. 이러한 시설은 미세먼지 전이를 70% 이상 감소시킨다는 실측 결과가 있다.</p>
+ </section>
 
-      <section style="margin-bottom:2.8rem;">
-        <h2 style="font-size:1.5rem; font-weight:650; margin-bottom:1rem; color:#111827;">주차 용이성: 단순 주차 가능 여부가 아니라 픽률과 회차 반경</h2>
-        <p style="margin-bottom:1.1rem; color:#374151;">공덕동은 직장인 유동인구가 많고 저녁 시간대 주차 수요가 집중된다. 노래방 자체 주차장을 보유한 곳은 소수이며, 대부분 인근 공용 주차장이나 계약제 주차 빌딩을 이용한다. 문제는 주차 가능 대수가 아니라 ‘회차 가능 반경’이다. 기둥 간격 2.5m 미만의 기계식 주차 시설은 승차감이 낮고 출차시간이 7분 이상 소요된다는 보고가 있다.</p>
-        <p style="color:#374151;">따라서 공덕 노래방을 선택할 때는 단순히 ‘주차 가능’ 여부가 아니라, 주차 타입을 자주식인지 기계식인지, 평균 주차 소요 시간이 5분 이내인지, 그리고 당일 이벤트나 주변 음식점 피크 시간과 중접되는지 여부를 함께 검토해야 한다. 데이터에 따르면 저녁 7시에서 9시 사이 공덕역 반경 300m 내 주차 포화 점유율은 92%에 달하기 때문에, 주차 조건은 방문 시간대 결정의 유의미한 영향 변수다.</p>
-      </section>
+ <section style="margin-bottom:2.8rem;">
+ <h2 style="font-size:1.5rem; font-weight:650; margin-bottom:1rem; color:#111827;">주차 용이성: 단순 주차 가능 여부가 아니라 픽률과 회차 반경</h2>
+ <p style="margin-bottom:1.1rem; color:#374151;">공덕동은 직장인 유동인구가 많고 저녁 시간대 주차 수요가 집중된다. 노래방 자체 주차장을 보유한 곳은 소수이며, 대부분 인근 공용 주차장이나 계약제 주차 빌딩을 이용한다. 문제는 주차 가능 대수가 아니라 ‘회차 가능 반경’이다. 기둥 간격 2.5m 미만의 기계식 주차 시설은 승차감이 낮고 출차시간이 7분 이상 소요된다는 보고가 있다.</p>
+ <p style="color:#374151;">따라서 공덕 노래방을 선택할 때는 단순히 ‘주차 가능’ 여부가 아니라, 주차 타입을 자주식인지 기계식인지, 평균 주차 소요 시간이 5분 이내인지, 그리고 당일 이벤트나 주변 음식점 피크 시간과 중접되는지 여부를 함께 검토해야 한다. 데이터에 따르면 저녁 7시에서 9시 사이 공덕역 반경 300m 내 주차 포화 점유율은 92%에 달하기 때문에, 주차 조건은 방문 시간대 결정의 유의미한 영향 변수다.</p>
+ </section>
 
-      <div class="n-grid-lzsx">
-        <div style="background:#ffffff; border-radius:16px; padding:1.5rem; box-shadow:0 1px 3px rgba(0,0,0,0.04);">
-          <h3 style="font-size:1.15rem; margin-bottom:0.7rem; font-weight:650;">환기 점검 항목</h3>
-          <ul style="padding-left:1.2rem; color:#374151; margin:0;">
-            <li>천장 급기구 작동 여부</li>
-            <li>시간당 공기 교환 횟수(ACH)</li>
-            <li>이산화탄소 센서 유무</li>
-          </ul>
-        </div>
-        <div style="background:#ffffff; border-radius:16px; padding:1.5rem; box-shadow:0 1px 3px rgba(0,0,0,0.04);">
-          <h3 style="font-size:1.15rem; margin-bottom:0.7rem; font-weight:650;">음연 격리 지표</h3>
-          <ul style="padding-left:1.2rem; color:#374151; margin:0;">
-            <li>공기압 차이 설계</li>
-            <li>복도 공기 커튼 설치</li>
-            <li>룸 간 문 이중 구조</li>
-          </ul>
-        </div>
-        <div style="background:#ffffff; border-radius:16px; padding:1.5rem; box-shadow:0 1px 3px rgba(0,0,0,0.04);">
-          <h3 style="font-size:1.15rem; margin-bottom:0.7rem; font-weight:650;">주차 평가 기준</h3>
-          <ul style="padding-left:1.2rem; color:#374151; margin:0;">
-            <li>주차 타입(자주식/기계식)</li>
-            <li>회차 반경 및 소요 시간</li>
-            <li>시간대별 포화 점유율</li>
-          </ul>
-        </div>
-      </div>
+ <div class="n-grid-lzsx">
+ <div style="background:#ffffff; border-radius:16px; padding:1.5rem; box-shadow:0 1px 3px rgba(0,0,0,0.04);">
+ <h3 style="font-size:1.15rem; margin-bottom:0.7rem; font-weight:650;">환기 점검 항목</h3>
+ <ul style="padding-left:1.2rem; color:#374151; margin:0;">
+ <li>천장 급기구 작동 여부</li>
+ <li>시간당 공기 교환 횟수(ACH)</li>
+ <li>이산화탄소 센서 유무</li>
+ </ul>
+ </div>
+ <div style="background:#ffffff; border-radius:16px; padding:1.5rem; box-shadow:0 1px 3px rgba(0,0,0,0.04);">
+ <h3 style="font-size:1.15rem; margin-bottom:0.7rem; font-weight:650;">음연 격리 지표</h3>
+ <ul style="padding-left:1.2rem; color:#374151; margin:0;">
+ <li>공기압 차이 설계</li>
+ <li>복도 공기 커튼 설치</li>
+ <li>룸 간 문 이중 구조</li>
+ </ul>
+ </div>
+ <div style="background:#ffffff; border-radius:16px; padding:1.5rem; box-shadow:0 1px 3px rgba(0,0,0,0.04);">
+ <h3 style="font-size:1.15rem; margin-bottom:0.7rem; font-weight:650;">주차 평가 기준</h3>
+ <ul style="padding-left:1.2rem; color:#374151; margin:0;">
+ <li>주차 타입(자주식/기계식)</li>
+ <li>회차 반경 및 소요 시간</li>
+ <li>시간대별 포화 점유율</li>
+ </ul>
+ </div>
+ </div>
 
-      <section class="r-grid-feb6" style="margin-top:1rem;">
-        <div style="background:#f3f4f6; border-radius:16px; padding:1.6rem;">
-          <h3 style="font-size:1.2rem; font-weight:650; margin-bottom:0.7rem;">인원수별 공간 밀도 지표</h3>
-          <p style="color:#1f2937; margin-bottom:0.4rem;">4인 기준 1인당 권장 면적은 2.5m² 이상이어야 음향 반사가 균일해집니다. 6인 이상일 경우 3.2m²로 확보해야 청음 피로를 줄일 수 있습니다.</p>
-        </div>
-        <div>
-        <div style="background:#ffffff; border-radius:16px; padding:1.6rem;">
-          <h3 style="font-size:1.2rem; font-weight:650; margin-bottom:0.7rem;">이용 시점별 조건</h3>
-          <p style="color:#1f2937; margin-bottom:0.4rem;">평일 13시~17시는 환기 시스템 가동률이 낮은 경우가 있어 주의가 필요합니다. 주말 20시 이후는 주차 포화도가 92%에 도달합니다.</p>
-        </div>
-        </div>
-      </div>
+ <section class="r-grid-feb6" style="margin-top:1rem;">
+ <div style="background:#f3f4f6; border-radius:16px; padding:1.6rem;">
+ <h3 style="font-size:1.2rem; font-weight:650; margin-bottom:0.7rem;">인원수별 공간 밀도 지표</h3>
+ <p style="color:#1f2937; margin-bottom:0.4rem;">4인 기준 1인당 권장 면적은 2.5m² 이상이어야 음향 반사가 균일해집니다. 6인 이상일 경우 3.2m²로 확보해야 청음 피로를 줄일 수 있습니다.</p>
+ </div>
+ <div>
+ <div style="background:#ffffff; border-radius:16px; padding:1.6rem;">
+ <h3 style="font-size:1.2rem; font-weight:650; margin-bottom:0.7rem;">이용 시점별 조건</h3>
+ <p style="color:#1f2937; margin-bottom:0.4rem;">평일 13시~17시는 환기 시스템 가동률이 낮은 경우가 있어 주의가 필요합니다. 주말 20시 이후는 주차 포화도가 92%에 도달합니다.</p>
+ </div>
+ </div>
+ </div>
 
-      <section style="margin-top:2.2rem; margin-bottom:0.8rem;">
-        <h2 style="font-size:1.5rem; font-weight:650; margin-bottom:1rem; color:#111827;">통합 판단 매트릭스: 환기, 음연, 주차의 조합</h2>
-        <p style="color:#374151; margin-bottom:1rem;">세 지표는 독립적이지 않다. 예컨대 환기 불량 룸에서 음연 격리 또한 느슨할 경우, 실내 공기 질은 예측 없이 악화된다. 주차가 불편한 지점은 이용 시간을 단축시키는 심리적 변수로 작용하며, 이는 결과적으로 더 좁거나 환기 미흡한 룸을 급히 선택하게 만드는 연쇄를 낳는다.</p>
-        <p style="color:#374151;">공덕 노래방 정보를 단순한 가격과 위치 정보로 축소하지 말고, 본 분석에서 제시된 3개 축을 동시에 고려할 것을 권고한다. 적절한 환기량, 음연에 대한 건축적 대응, 그리고 주차 피크 시간 회피를 조합할 때 비로소 실질적 만족도가 평균보다 30% 이상 높아지는 경향이 관측된다.</p>
-      </section>
-    </article>
-  </main>
+ <section style="margin-top:2.2rem; margin-bottom:0.8rem;">
+ <h2 style="font-size:1.5rem; font-weight:650; margin-bottom:1rem; color:#111827;">통합 판단 매트릭스: 환기, 음연, 주차의 조합</h2>
+ <p style="color:#374151; margin-bottom:1rem;">세 지표는 독립적이지 않다. 예컨대 환기 불량 룸에서 음연 격리 또한 느슨할 경우, 실내 공기 질은 예측 없이 악화된다. 주차가 불편한 지점은 이용 시간을 단축시키는 심리적 변수로 작용하며, 이는 결과적으로 더 좁거나 환기 미흡한 룸을 급히 선택하게 만드는 연쇄를 낳는다.</p>
+ <p style="color:#374151;">공덕 노래방 정보를 단순한 가격과 위치 정보로 축소하지 말고, 본 분석에서 제시된 3개 축을 동시에 고려할 것을 권고한다. 적절한 환기량, 음연에 대한 건축적 대응, 그리고 주차 피크 시간 회피를 조합할 때 비로소 실질적 만족도가 평균보다 30% 이상 높아지는 경향이 관측된다.</p>
+ </section>
+ </article>
+ </main>
 </div>
 
 <footer class="k-foot-8cqj">
-  <span>© 2025 공덕 노래방 정보 — 환경 지표 기반 분석</span>
-  <a href="/privacy" style="color:#4b5563; text-decoration:underline;">개인정보 처리방침</a>
-  <a href="/terms" style="color:#4b5563; text-decoration:underline;">이용약관</a>
+ <span>© 2025 공덕 노래방 정보 — 환경 지표 기반 분석</span>
+ <a href="/privacy" style="color:#4b5563; text-decoration:underline;">개인정보 처리방침</a>
+ <a href="/terms" style="color:#4b5563; text-decoration:underline;">이용약관</a>
 </footer>
 </body>
 </html>
